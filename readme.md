@@ -14,6 +14,7 @@ SOLUZIONE:
     5.3 - :ALTRIMENTI vai avanti;
 6 - Creare un evento al click per andare avanti o indietro nelle immagini;
 7 - Creare la funzione da collegare all'evento click per andare avanti o indietro;
-    7.1 - Creare una condizione;
-    7.2 - ? SE l'immagine corrente è uguale alla lunghezza dell'array - 1, l'immagine corrente = 0;
-    7.3 - : ALTRIMENTI l'immagine corrente è uguale alla lunghezza dell'array - 1;
+    7.1 - Creare una condizione per il bottone prev;
+    7.2 - ? SE l'immagine corrente è maggiore alla lunghezza dell'array - 1, l'immagine corrente = 0;
+    7.3 - Creare una condizione per il bottone next;
+    7.4 - ? SE l'immagine corrente è minore di 0; l'immagine corrente è uguale alla lunghezza dell'array - 1; 

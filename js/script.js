@@ -30,6 +30,23 @@ createApp({
                 }
             ]
         }
+    }, 
+    methods: {
+        prevImage(){
+            this.currentImage--;
+
+            if(this.currentImage > this.slides.length - 1){
+                this.currentImage = 0;
+            }
+
+        },
+        nextImage(){
+            this.currentImage++;
+            
+            if(this.currentImage < 0){
+                this.currentImage = this.slides.length - 1;
+            }
+        }
     }
 }).mount('#app');
 
