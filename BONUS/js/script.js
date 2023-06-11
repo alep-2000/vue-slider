@@ -46,6 +46,9 @@ createApp({
             if(this.currentImage < 0){
                 this.currentImage = this.slides.length - 1;
             }
+        },
+        visual_image(index){
+            this.currentImage = index
         }
     }
 }).mount('#app');
