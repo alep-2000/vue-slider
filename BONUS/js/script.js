@@ -57,6 +57,10 @@ createApp({
         autoplay_slide(){
             this.autoplay= setInterval(() =>{
                 this.nextImage()
+
+                if(this.currentImage > this.slides.length - 1){
+                    this.currentImage = 0;
+                }
             }, 2000)
         },
         stop_autoplay(){
